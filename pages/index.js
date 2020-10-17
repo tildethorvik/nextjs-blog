@@ -9,20 +9,13 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hei! Jeg heter Vebjørn og liker sjakk, Vømmøl og geografi.</p>
+        <p>Hei! Jeg heter Tilde Thorvik!</p>
         
         <section className={utilStyles.apLogo}>
-          <a href="https://trondelag.arbeiderpartiet.no/politikere/101909-vebjrn-gorseth">
-            <img
-                src="/images/ap-logo.png"
-                className='ap-logo'
-                alt={"ap-logo"}
-            />
-          </a>
-          <a href="https://www.instagram.com/vgorseth/">
+          <a href="https://www.instagram.com/tildetullia/">
             <img src="/images/instagram.png" className='ap-logo'/>
           </a>
-          <a href="https://www.facebook.com/vgorseth/">
+          <a href="https://www.facebook.com/tilde.thorvik/">
             <img src="/images/fb.png" className='ap-logo'/>
           </a>
         </section>
